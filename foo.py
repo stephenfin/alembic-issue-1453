@@ -8,7 +8,7 @@ BASE = declarative_base()
 
 
 class Message(BASE):
-    __tablename__ = 'messages'
+    __tablename__ = 'message'
 
     id = Column(Integer, primary_key=True)
     message = Column(String(255), nullable=False)
